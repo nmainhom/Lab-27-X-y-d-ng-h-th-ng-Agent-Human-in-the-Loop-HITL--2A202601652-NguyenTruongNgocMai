@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Streamlit secrets (API keys, tokens...) không bao giờ commit
+.streamlit/secrets.toml
+
+# Biến môi trường chứa credential thật
+.env
+.env.*
+
+.DS_Store
